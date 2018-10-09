@@ -1,0 +1,7 @@
+{
+  "extends": ["@accounts/tslint-config-accounts"],
+  "rules": {
+    "no-submodule-imports": [true, "@accounts/server"],
+    "no-implicit-dependencies": [true, "dev"]
+  }
+}
